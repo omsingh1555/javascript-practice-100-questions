@@ -31,3 +31,18 @@ function getEvenNumbers(arr) {
   return result;
 }
 ```
+## Q28 - Sum of Numbers Greater Than 20
+
+```js
+function sumGreaterThan20(arr) {
+  let sum = 0;
+
+  for (let data of arr) {
+    if (data > 20) {
+      sum += data;
+    }
+  }
+
+  return sum;
+}
+```
